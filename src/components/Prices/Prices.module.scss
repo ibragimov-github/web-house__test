@@ -1,0 +1,190 @@
+@import '../../colors/color.scss';
+
+.container {
+  width: 1180px;
+  height: 1731px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 94px 0;
+  h2 {text-align: center;}
+  .description {
+    font-size: 20px;
+    margin: 57px 0 20px 0;
+    .bold {
+      font-weight: 600;
+    }
+  }
+  .card-container {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    .price-card {
+      width: 280px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px 10px 0px 0px;
+      box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+      div {
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+      }
+      h3 {
+        color: rgba(27, 86, 124, 1);
+        font-size: 36px;
+        font-weight: 600;
+      }
+    }
+    .balloon {
+      div {background: url(../../img/icons/balloon.svg) no-repeat no-repeat center;}
+    }
+    .telegram {
+      div {background: url(../../img/icons/telegram.svg) no-repeat no-repeat center;}
+    }
+    .helicopter {
+      div {background: url(../../img/icons/helicopter.svg) no-repeat no-repeat center;}
+    }
+    .rocket {
+      div {background: url(../../img/icons/rocket.svg) no-repeat no-repeat center;}
+    }
+  }
+  .information {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .big-card__container {
+    width: 100%;
+    height: 488px;
+    display: flex;
+    justify-content: space-between;
+    .price-card {
+      position: relative;
+      width: 280px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0 24px 0;
+      box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+      border-radius: 0px 0px 10px 10px;
+      .text-card {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        span {
+          text-align: center;
+        }
+        .light-text {
+          color: $text2;
+          margin-top: 14px;
+        }
+      }
+      .price {
+        position: absolute;
+        left: 0;
+        bottom: 91px;
+        width: 100%;
+        height: 67px;
+        display: flex;
+        
+
+        .sale {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 57%;
+          height: 100%;
+          background: rgb(124,180,216);
+          background: -moz-linear-gradient(left,  rgba(124,180,216,1) 0%, rgba(191,230,255,0) 100%);
+          background: -webkit-linear-gradient(left,  rgba(124,180,216,1) 0%,rgba(191,230,255,1) 100%);
+          background: linear-gradient(to right,  rgba(124,180,216,1) 0%,rgba(191,230,255,0) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cb4d8', endColorstr='#bfe6ff',GradientType=1 );
+          h3 {
+            color: rgba(27, 86, 124, 1);
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+          }
+          span {
+            color: rgba(27, 86, 124, 1);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+          }
+        }
+        .old-price {
+          width: 43%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          span {text-decoration: line-through;
+            &:nth-child(1) {font-size: 26px;}
+            &:nth-child(2) {font-size: 14px;}
+          }
+        }
+      }
+    }
+  }
+  .red-link {
+    color: $orange;
+    text-align: center;
+    margin: 34.65px 0 66.35px 0;
+  }
+  .illustration-text {
+    width: 1170px;
+    height: 401px;
+    margin: 0 auto;
+    display: flex;
+    .illustration {
+      width: 595px;
+      height: 100%;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h4 {
+        font-weight: 400;
+        color: $gray;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 5%;
+      }
+      .checked-text {
+        width: 100%;
+        height: 196px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .text {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          .ico {
+            width: 32px;
+            height: 32px;
+            background: url(../../img/icons/checked.svg) no-repeat no-repeat center;
+            background-size: contain;
+            margin-right: 11px;
+          }
+          span {
+            font-size: 20px;
+            color: #1B567C;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

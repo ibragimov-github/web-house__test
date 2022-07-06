@@ -1,0 +1,46 @@
+@import '../../colors/color.scss';
+
+.bkg {
+  width: 100%;
+  height: 494px;
+  background-color: rgba(103, 168, 210, .2);
+  color: $gray;
+  .container {
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 65px 0 71px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      margin-bottom: 60px;
+    }
+    .card-container {
+      width: 912px;
+      height: 231.08px;
+      display: flex;
+      justify-content: space-between;
+      .card {
+        width: 276px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .ico {
+          width: 60px;
+          height: 60px;
+        }
+        .ico1 {background: url(../../img/icons/arrow.svg) no-repeat no-repeat center;}
+        .ico2 {background: url(../../img/icons/suitcase.svg) no-repeat no-repeat center;}
+        .ico3 {background: url(../../img/icons/lock.svg) no-repeat no-repeat center;}
+        .text {
+          font-size: 16px;
+          color: #858585;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

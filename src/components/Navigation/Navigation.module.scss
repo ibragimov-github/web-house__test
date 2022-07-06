@@ -1,0 +1,19 @@
+@import '../../colors/color.scss';
+
+.nav {
+  width: 1180px;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .separation {
+    width: 1px;
+    height: 20px;
+    background-color: #D4D4D4;
+  }
+  .select {
+    width: 244px;
+    height: 30px;
+  }
+}

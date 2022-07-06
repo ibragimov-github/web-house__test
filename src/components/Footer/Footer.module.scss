@@ -1,0 +1,155 @@
+.bkg {
+  width: 100%;
+  height: 827px;
+  background-color: rgba(38, 38, 38, 1);
+  .container {
+    padding-top: 89px;
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .basic-info {
+      display: flex;
+      .left-block {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .logo {
+          width: 145px;
+          height: 90px;
+          background: url(../../img/icons/logo.svg) no-repeat no-repeat center;
+        }
+        .left-text {
+          color: rgba(133, 133, 133, 1);
+          font-weight: 400;
+          font-size: 16px;
+          margin-top: 10px;
+
+        }
+        .two-blocks {
+          width: 100%;
+          height: 304px;
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          .our-links {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            span {
+              color: rgba(255, 255, 255, 1);
+              font-size: 16px;
+              font-weight: 400;
+              &:nth-child(1) {
+                color: rgba(133, 133, 133, 1);
+                margin:20px 0 10px 0;
+              }
+            }
+          }
+          .our-service {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            span {
+              color: rgba(255, 255, 255, 1);
+              font-size: 16px;
+              font-weight: 400;
+              &:nth-child(1) {
+                color: rgba(133, 133, 133, 1);
+                margin:20px 0 10px 0;
+              }
+            }
+          }
+        }
+      }
+      .right-block {
+        width: 50%;
+        height: 100%;
+        .media {
+          width: 100%;
+          height: 243px;
+          display: flex;
+          justify-content: space-between;
+          .contacts {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .contact {
+              width: 100%;
+              height: 300px;
+              display: flex;
+              align-items: center;
+              span {
+                color: rgba(133, 133, 133, 1);
+                font-weight: 400;
+                font-size: 16px;
+              }
+              .white-text {
+                color: rgba(255, 255, 255, 1);
+                font-weight: 600;
+              }
+              .logo {
+                margin-right: 10px;
+                min-width: 30px;
+                height: 30px;
+                border-radius: 50%;
+              }
+              .phone-logo {background: url(../../img/icons/phone.svg) no-repeat no-repeat center, #515151;}
+              .mail-logo {background: url(../../img/icons/mail.svg) no-repeat no-repeat center, #515151;}
+              .geo-logo {background: url(../../img/icons/geoposition.svg) no-repeat no-repeat center, #515151;}
+            }
+          }
+          .media {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            button {
+              width: 88px;
+              height: 31px;
+              font-size: 14px;
+            }
+            .socialmedia-wrap {
+              width: 100%;
+              height: 48px;
+              display: flex;
+              justify-content: space-between;
+              div {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+              }
+              .twi {background: url(../../img/icons/twi.svg) no-repeat no-repeat center;}
+              .inst {background: url(../../img/icons/inst.svg) no-repeat no-repeat center;}
+              .vk {background: url(../../img/icons/vk.svg) no-repeat no-repeat center;}
+              .fb {background: url(../../img/icons/fb.svg) no-repeat no-repeat center;}
+            }
+          }
+        }
+      }
+    }
+    .privacy {
+      width: 100%;
+      height: 71px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(133, 133, 133, 1);
+      span {
+        color: rgba(133, 133, 133, 1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}

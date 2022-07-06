@@ -1,0 +1,81 @@
+@import './colors/color.scss';
+@font-face {
+  font-family: "SF Pro";
+  src: url(./fonts/SFProDisplay-Medium.ttf);
+}
+
+* {
+  font-family: "SF Pro";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, 
+body, 
+#root {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #000;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: underline;
+  font-style: italic;
+}
+h1 {font-size: 72px;}
+h2 {font-size: 48px;}
+h1,
+h2 {
+  line-height: 150%;
+  letter-spacing: 6%;
+  font-weight: 400;
+}
+h3 {
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 5%;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.click-button {
+  width: 232px;
+  height: 44px;
+  background-color: $blue;
+  border: none;
+  border-radius: 5px;
+  color: $white;
+  font-size: 20px;
+  letter-spacing: 3.5%;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.basic-text, 
+.basic-text__bold {
+  font-size: 20px;
+  line-height: 30px;
+}
+.basic-text {font-weight: 400;}
+.basic-text__bold {font-weight: 600;}
+.mini-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+
+}
+.active {
+  height: 410px !important;
+  justify-content: start !important;
+  padding-right: 20px;
+  padding-top: 20px;
+  background-color: #fff;
+  z-index: 101;
+  .disable {
+    display: block !important;
+    text-align: left;
+  }
+}
